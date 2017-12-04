@@ -944,7 +944,12 @@ public class FTTest extends BaseTest{
         contact.submit.click();
         assertThat(textToBePresentInElement(contact.successMessage,
                 "Votre message a bien été envoyé. Merci."));
+        //Test jenkins git trigger
     }
+
+    private void scrollThePage(){}
+
+
 
 
     HomePage home = new HomePage(driver);
